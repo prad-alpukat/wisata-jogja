@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home - Wonderful Jogja</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+
+    
+    <link href="img/favicon.ico" rel="icon">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+   
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+
+  
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Safety</span>First</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="price.html" class="nav-item nav-link">Harga</a>
+                    <a href="booking.html" class="nav-item nav-link">Pemesanan</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Halaman</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="blog.html" class="dropdown-item">Rekomendasi Tempat Wisata</a>
+                            <a href="single.html" class="dropdown-item">Mengenal Yogyakarta</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kritik & Saran</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white mb-3 d-none d-sm-block">Layanan Pemesanan Wisata Jogja Terbaik</h3>
+                            <h1 class="display-3 text-white mb-3">Wisata Sejarah</h1>
+                            <h5 class="text-white mb-3 d-none d-sm-block">Jogja selain terkenal dengan Tugu Jogjanya, terdapat juga banyak bangunan bersejarah lain seperti Kraton Yogyakarta, Benteng Vredeburg, serta lebih banyak lagi</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white mb-3 d-none d-sm-block">Layanan Pemesanan Wisata Jogja Terbaik</h3>
+                            <h1 class="display-3 text-white mb-3">Wisata Alam</h1>
+                            <h5 class="text-white mb-3 d-none d-sm-block">Jogja terkenal dengan wisata alam pantainya, seperti Pantai Prangtritis, Pantai Indrayanti, dan lain-lain</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary rounded" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary rounded" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="bg-primary py-5 px-4 px-sm-5">
+                        <form class="py-5">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0 p-4" placeholder="Nama" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0 p-4" placeholder="Email" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <div class="date" id="date" data-target-input="nearest">
+                                    <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Tanggal Reservasi" data-target="#date" data-toggle="datetimepicker"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="time" id="time" data-target-input="nearest">
+                                    <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Waktu Reservasi" data-target="#time" data-toggle="datetimepicker"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="custom-select border-0 px-4" style="height: 47px;">
+                                    <option selected>Pilih Jenis Pesanan</option>
+                                    <option value="1">Gold</option>
+                                    <option value="2">Platinum</option>
+                                    <option value="3">Diamond</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button class="btn btn-dark btn-block border-0 py-3" type="submit">Pesan Sekarang</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-7 py-5 py-lg-0 px-3 px-lg-5">
+                    <h4 class="text-secondary mb-3">Ingin berwisata di Jogja?</h4>
+                    <h1 class="display-4 mb-4">Pesan Sekarang <span class="text-primary">Wisatamu</span></h1>
+                    <p>Rasakan keindahan wisata alam di Jogja serta bangunan bersejarah yang sangat autentik</p>
+                    <div class="row py-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center mb-2">
+                                    
+                                    <h5 class="text-truncate m-0">Tour Guide</h5>
+                                </div>
+                                <p>Dapatkan tour guide agar perjalanan wisatamu makin nyaman</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center mb-2">
+                                    
+                                    <h5 class="text-truncate m-0">Ticket</h5>
+                                </div>
+                                <p>Pesan ticket wisata dengan mudah dan dapatkan berbagai promo sekarang juga</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center mb-2">
+                                    
+                                    <h5 class="text-truncate m-0">Penginapan</h5>
+                                </div>
+                                <p class="m-0">Kami menyediakan rekomendasi penginapan terdekat dan termurah</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center mb-2">
+                                    
+                                    <h5 class="text-truncate m-0">Transportasi</h5>
+                                </div>
+                                <p class="m-0">Kemana-mana super easy dengan rekomendasi transportasi termurah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-7 pb-5 pb-lg-0 px-3 px-lg-5">
+                <h4 class="text-secondary mb-3">Tentang Kami</h4>
+                <h3 class="display-4 mb-4"><span class="text-primary">Wisata</span> & <span class="text-secondary">Penginapan</span></h3>
+                <p class="mb-4">Wonderful Jogja adalah website pemesanan wisata di Yogyakarta yang memungkinkan pengguna untuk menemukan dan memesan beragam produk perjalanan dan local services. Portofolio komprehensif yang dimiliki oleh Wonderful Jogja termasuk pemesanan tiket untuk transportasi, seperti tiket pesawat, bus, kereta api, penyewaan mobil, airport transfer, serta inventaris akomodasi terbesar di Yogyakarta, termasuk hotel, apartemen, guest house, homestay, resort, dan villa, menjadikan Wonderful Jogja sebagai website pemesanan dengan pilihan akomodasi dan paket terlengkap.</p>
+                <ul class="list-inline">
+                    <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>No. 1 di Jogja</h5></li>
+                    <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>Layanan Customer Service 24 Jam</h5></li>
+                    <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>Rekomendasi Wisata Jogja Terlengkap</h5></li>
+                </ul>
+            </div>
+            <div class="col-lg-5">
+                <div class="row px-3">
+                    <div class="col-12 p-0">
+                        <img class="img-fluid w-100" src="img/about-1.jpg" alt="">
+                    </div>
+                    <div class="col-6 p-0">
+                        <img class="img-fluid w-100" src="img/about-2.jpg" alt="">
+                    </div>
+                    <div class="col-6 p-0">
+                        <img class="img-fluid w-100" src="img/about-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-light pt-5 pb-4">
+        <div class="container py-5">
+            <div class="d-flex flex-column text-center mb-5">
+                <h4 class="text-secondary mb-3">Paket Wisata</h4>
+                <h1 class="display-4 m-0">Pilih <span class="text-primary">Harga Terbaikmu</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0">
+                        <div class="card-header position-relative border-0 p-0 mb-4">
+                            <img class="card-img-top" src="img/price-1.jpg" alt="">
+                            <div class="position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100" style="top: 0; left: 0; z-index: 1; background: rgba(0, 0, 0, .5);">
+                                <h3 class="text-primary mb-3">Gold</h3>
+                                <h1 class="display-4 text-white mb-0">
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">IDR</small>1,5 Jt<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Hari</small>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card-body text-center p-0">
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Breakfast, Lunch, Dinner</li>
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Free Pass 2 Tempat Wisata</li>
+                                <li class="list-group-item p-2"><i class="fa fa-times text-danger mr-2"></i>Transportasi</li>
+                                <li class="list-group-item p-2"><i class="fa fa-times text-danger mr-2"></i>Villa & Resort</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0">
+                        <div class="card-header position-relative border-0 p-0 mb-4">
+                            <img class="card-img-top" src="img/price-2.jpg" alt="">
+                            <div class="position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100" style="top: 0; left: 0; z-index: 1; background: rgba(0, 0, 0, .5);">
+                                <h3 class="text-secondary mb-3">Platinum</h3>
+                                <h1 class="display-4 text-white mb-0">
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">IDR</small>3 Jt<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Hari</small>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card-body text-center p-0">
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Breakfast, Lunch, Dinner</li>
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Free Pass 4 Tempat Wisata</li>
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Transportasi</li>
+                                <li class="list-group-item p-2"><i class="fa fa-times text-danger mr-2"></i>Villa & Resort</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0">
+                        <div class="card-header position-relative border-0 p-0 mb-4">
+                            <img class="card-img-top" src="img/price-3.jpg" alt="">
+                            <div class="position-absolute d-flex flex-column align-items-center justify-content-center w-100 h-100" style="top: 0; left: 0; z-index: 1; background: rgba(0, 0, 0, .5);">
+                                <h3 class="text-primary mb-3">Diamond</h3>
+                                <h1 class="display-4 text-white mb-0">
+                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">IDR</small>4,5 Jt<small class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Hari</small>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="card-body text-center p-0">
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Breakfast, Lunch, Dinner, and Snack</li>
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Free Pass 6 Tempat Wisata</li>
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Transportasi</li>
+                                <li class="list-group-item p-2"><i class="fa fa-check text-secondary mr-2"></i>Villa & Resort</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5 pt-5 pb-3">
+        <div class="d-flex flex-column text-center mb-5">
+            <h1 class="display-4 m-0">Anggota <span class="text-primary">Kelompok Kami</span></h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/poto 2.jpeg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Ifanda Ariel Pradana Aji</h5>
+                            <i>21111100066</i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/poto1.jpeg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Desty Nur Kumalasari</h5>
+                            <i>21111100050</i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/poto1.jpeg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Nadia Rahmawati</h5>
+                            <i>21111100046</i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="container pt-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h1 class="display-4 m-0"><span class="text-primary">Rekomendasi</span> Tempat Wisata</h1>
+        </div>
+        <div class="row pb-3">
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 mb-2">
+                    <img class="card-img-top" src="img/blog-1.jpg" alt="">
+                    <div class="card-body bg-light p-4">
+                        <h4 class="card-title text-truncate">Candi Prambanan</h4>
+                        
+                        <p>Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi.</p>
+                        <a class="font-weight-bold" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 mb-2">
+                    <img class="card-img-top" src="img/blog-2.jpg" alt="">
+                    <div class="card-body bg-light p-4">
+                        <h4 class="card-title text-truncate">Air Terjun Mudal</h4>
+                        
+                        <p>Sungai Mudal momentum awalnya dimulai sekitar tahu 2011, melalui program bersih-bersih saluran air yang dilakukan masyarakat.</p>
+                        <a class="font-weight-bold" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 mb-2">
+                    <img class="card-img-top" src="img/blog-3.jpg" alt="">
+                    <div class="card-body bg-light p-4">
+                        <h4 class="card-title text-truncate">Hutan Mangunan</h4>
+                       
+                        <p>Pemandangan indah dari Kebun Buah Mangunan tidak hanya dari rimbunnya tanaman dan pohon hijau, tapi juga karena fenomena alamnya yang unik.</p>
+                        <a class="font-weight-bold" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12 mb-5">
+                <h1 class="mb-3 display-5 text-capitalize text-white"><span class="text-primary">Wonderful</span>Jogja</h1>
+                <p class="m-0">
+
+#SobatWisata sudah punya rencana liburan kali ini? Dinas Pariwisata Kabupaten Gunungkidul punya referensi yang bagus dan layak untuk dipertimbangkan, keindahan alam dari sang maha pencipta membentang luas di wilayah kabupaten Gunungkidul DIY, pantai berpasir putih nan menawan, goa dibawah tanah yang megah dan exotic, dan bentang karst didasar laut yang terangkat jutaan tahun lalu yang tidak habis untuk dijelajahi.</p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">Kontak</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>Jl.Parangtritis Km.5, Yogyakarta</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+6282 345 67890</p>
+                        <p><i class="fa fa-envelope mr-2"></i>wonderfuljogja@gmail.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold" href="#">Wonderful Jogja</a>. All Rights Reserved. 
+                </p>
+            </div>
+           
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
